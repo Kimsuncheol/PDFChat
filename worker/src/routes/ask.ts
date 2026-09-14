@@ -5,7 +5,7 @@ import { embedTexts } from "../lib/embed";
 
 export const askRoute = new Hono<{ Bindings: Env }>();
 
-const CHAT_MODEL = "@cf/meta/llama-3.1-8b-instruct";
+const CHAT_MODEL = "@cf/meta/llama-3.1-8b-instruct-fp8";
 const TOP_K = 5;
 const HISTORY_LIMIT = 10;
 

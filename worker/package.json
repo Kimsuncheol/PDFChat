@@ -14,8 +14,8 @@
     "unpdf": "^0.12.1"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240925.0",
+    "@cloudflare/workers-types": "^5.20260914.1",
     "typescript": "^5.6.3",
-    "wrangler": "^3.80.0"
+    "wrangler": "^4.131.2"
   }
 }

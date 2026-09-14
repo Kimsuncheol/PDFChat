@@ -13,6 +13,7 @@ index_name = "pdfchat-chunks"
 [[r2_buckets]]
 binding = "PDF_BUCKET"
 bucket_name = "pdfchat-pdfs"
+preview_bucket_name = "pdfchat-pdfs-preview"
 
 [[queues.producers]]
 binding = "DOC_QUEUE"
@@ -25,7 +26,7 @@ max_batch_timeout = 10
 max_retries = 3
 
 [vars]
-FIRESTORE_PROJECT_ID = "your-firebase-project-id"
+FIRESTORE_PROJECT_ID = "pdfchat-d96c29"
 
 # Secrets (do NOT put these here — set via `wrangler secret put`):
 #   FIRESTORE_CLIENT_EMAIL
