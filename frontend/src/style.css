@@ -1,0 +1,61 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f7f7f8;
+}
+
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.upload-label {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border: 1px dashed #999;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-height: 200px;
+}
+
+.message {
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.message.user {
+  background: #e8f0fe;
+  align-self: flex-end;
+}
+
+.chat-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.chat-form input {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.error {
+  color: #c0392b;
+}
